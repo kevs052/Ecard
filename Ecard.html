@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa; /* Light background color for the body */
+  }
+
+  svg {
+    border: 5px solid #ffcc00; /* Yellow border around the SVG */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+
+  text {
+    font-family: 'Arial', sans-serif; /* Consistent font family */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+  }
+</style>
+<body>
+  <svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200">
+    <rect width="100%" height="100%" fill="#f0f8ff" />
+
+    <!-- Christmas Tree (Left Side) -->
+    <g transform="translate(250, 500)">
+      <polygon points="-50,0 0,-100 50,0" fill="#228B22" />
+      <polygon points="-75,50 0,-50 75,50" fill="#228B22" />
+      <polygon points="-100,100 0,0 100,100" fill="#228B22" />
+      <rect x="-15" y="100" width="30" height="50" fill="#8B4513" />
+      
+      <!-- Tree Decorations -->
+      <circle cx="0" cy="-50" r="8" fill="#FF0000" />
+      <circle cx="-20" cy="-20" r="8" fill="#FFFF00" />
+      <circle cx="20" cy="-20" r="8" fill="#00FF00" />
+      <circle cx="-40" cy="10" r="8" fill="#0000FF" />
+      <circle cx="40" cy="10" r="8" fill="#FF69B4" />
+      <circle cx="-30" cy="40" r="8" fill="#FFA500" />
+      <circle cx="30" cy="40" r="8" fill="#800080" />
+      
+      <!-- Star on top of the tree -->
+      <polygon points="0,-120 10,-100 30,-100 15,-80 20,-60 0,-70 -20,-60 -15,-80 -30,-100 -10,-100" fill="#FFD700" />
+    </g>
+
+    <!-- Snowman (Right Side) -->
+    <g transform="translate(550, 600)">
+      <circle r="60" fill="#FFFFFF" /> <!-- Bottom -->
+      <circle cy="-80" r="50" fill="#FFFFFF" /> <!-- Middle -->
+      <circle cy="-140" r="40" fill="#FFFFFF" /> <!-- Head -->
+      <circle cx="-10" cy="-150" r="5" fill="#000000" /> <!-- Left Eye -->
+      <circle cx="10" cy="-150" r="5" fill="#000000" /> <!-- Right Eye -->
+      <polygon points="0,-140 -20,-130 20,-130" fill="#FFA500" /> <!-- Carrot Nose -->
+      <circle cx="0" cy="-110" r="4" fill="#000000" /> <!-- Button 1 -->
+      <circle cx="0" cy="-80" r="4" fill="#000000" /> <!-- Button 2 -->
+      <circle cx="0" cy="-50" r="4" fill="#000000" /> <!-- Button 3 -->
+      
+      <!-- Snowman's Arms -->
+      <line x1="-50" y1="-80" x2="-100" y2="-100" stroke="#8B4513" stroke-width="5" />
+      <line x1="50" y1="-80" x2="100" y2="-100" stroke="#8B4513" stroke-width="5" />
+    </g>
+
+    <!-- Snowflakes -->
+    <g>
+      <circle cx="100" cy="150" r="4" fill="#FFFFFF" />
+      <circle cx="700" cy="200" r="4" fill="#FFFFFF" />
+      <circle cx="400" cy="50" r="6" fill="#FFFFFF" />
+      <circle cx="600" cy="300" r="5" fill="#FFFFFF" />
+      <circle cx="200" cy="400" r="5" fill="#FFFFFF" />
+    </g>
+
+    <!-- Text -->
+    <text x="50%" y="10%" font-family="Arial" font-size="36" fill="#ff0000" text-anchor="middle">Merry Christmas sa'yo Mama, Arlene</text>
+    <text x="50%" y="13%" font-family="Arial" font-size="20" fill="#000000" text-anchor="middle">
+      Nawa'y maging masaya ang iyong Pasko!
+    </text>
+    <text x="50%" y="80%" font-family="Arial" font-size="18" fill="#000000" text-anchor="middle">
+      Maraming maraming salamat sa lahat ng sakripisyo niyo sa aming magkakapatid.
+    </text>
+    <text x="50%" y="82%" font-family="Arial" font-size="18" fill="#000000" text-anchor="middle">
+      Wag ka mag-alala, lahat ng sinasabi ko sa'yo ay tutuparin ko.
+    </text>
+    <text x="50%" y="84%" font-family="Arial" font-size="18" fill="#000000" text-anchor="middle">
+      Yun lang Ma Merry Christmas ulit ma at maraming maraming salamat sa lahat.
+    </text>
+  </svg>
+</body>
+
+
+
+</html>
